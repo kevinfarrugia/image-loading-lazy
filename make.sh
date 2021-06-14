@@ -6,7 +6,7 @@ do
   for j in {1..5}
   do
     id=$(($i + $j));
-    echo "<img loading='lazy' src='https://placekitten.com/${id}/${id}' width='600' height='600' alt=''>"
+    echo "<img loading='lazy' src='https://placekitten.com/${id}/${id}' width='${id}' height='${id}' alt=''>"
   done
   echo "</div>"
 done
